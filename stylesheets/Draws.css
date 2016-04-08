@@ -1,0 +1,15 @@
+.province {
+		stroke: olive;
+		stroke-width: 1px;
+		fill: pink;
+	}
+  
+	.southsea {
+		stroke: black;
+		stroke-width: 1px;
+		fill: black;
+	}
+
+/*	.location circle{
+		fill: blue;
+	}*/

@@ -1,0 +1,95 @@
+﻿/*-------------------------顶部导航栏-------------------------*/
+.nav
+{
+    width: 500px;
+    margin: 0 auto;
+
+    background-color: #1e8449;
+}
+.nav ul
+{
+    margin-top: 0;/*顶边的外延边距*/
+    margin-bottom: 0;/*底边的外延边距*/
+    padding-left: 0;/*左边的内补白*/
+
+    list-style: none;/*列表项目相关内容*/
+}
+.nav a
+{
+    line-height: inherit;
+
+    display: block;
+
+    padding: 0 16px;
+
+    cursor: pointer;
+}
+.nav_menu
+{
+    font-weight: 700;
+    line-height: 45px;
+
+    text-transform: uppercase;
+}
+.nav_menu-item
+{
+    position: relative;
+
+    display: inline-block;
+}
+.nav_menu-item:hover
+{
+    background-color: #9b59b6;
+}
+.nav_menu-item:hover .nav_submenu
+{
+    display: block;
+}
+.nav_submenu
+{
+    font-weight: 300;
+
+    position: absolute;
+
+    display: none;
+
+    width: 220px;
+
+    text-transform: none;
+
+    background-color: #9b59b6;
+}
+.nav_submenu-item:hover
+{
+    background: rgba(0, 0, 0, .1);
+}
+
+
+
+/*-------------------------左边导航栏-------------------------*/
+
+#left a:link,
+#left a:visited
+{
+    font-weight: bold;
+
+    display: block;
+
+    margin: 5px;
+    padding: 10px;
+
+    text-decoration: none;
+
+    border-bottom: 3px solid teal;
+}
+#left a:hover
+{
+    color: teal;
+    background-color: pink;
+}
+#left h3
+{
+    margin: 15px;
+
+    color: aqua;
+}

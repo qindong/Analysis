@@ -1,66 +1,85 @@
-*
+*,
+*:before,
+*:after
 {
     font-family: 'Gill Sans', 'Gill Sans MT',Calibri, sans-serif;
 
     -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
+
+a,
+a:hover
+{
+    text-decoration: none;/*文本装饰*/
+
+    color: aqua;/*文本颜色*/
+}
+
 body
 {
-    font-family: Geneva,Arial,Helvetica,sans-serif;
+    font-family: Geneva,Arial,Helvetica,sans-serif;/*文本的字体名称序列*/
 
-    max-width: 95%;
-    margin: 1px auto;
+    max-width: 95%;/*最大宽度*/
+    margin: 1px auto;/*四边的外延边距*/
 
-    border: solid;
-    border-color: #fff;
-    background: #88b2d2;
-    background-color: #eaebef;
-    background-image: url('../images/6.png');
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-position: center;
+    border: solid;/*边框的特性。*/
+    border-color: #fff;/*边框颜色*/
+    background: none;/*背景特性*/
+    background-color: #eaebef;/*背景颜色*/
+    background-image: url('../images/8.gif');/*背景图像*/
+    background-repeat: repeat;/*背景图像如何铺排填充*/
+    background-attachment: fixed;/*图像是随对象内容滚动还是固定的。*/
+    background-position: center;/*背景图像位置*/
 }
 
 header
 {
-    display: block;
+    display: block;/*布局：如何显示*/
 
-    text-align: center;
+    text-align: left;/*文本对齐方式*/
 
-    color: yellow;
-    background-color: #686a63;
+    color: black;/*文本颜色*/
+    /*background-color: teal;*/
     background-image: url('../images/12.jpg');
     background-repeat: repeat;
     background-attachment: fixed;
     background-position: center;
 }
 
-header h2
+header h1
 {
-    margin: 11px;
+    margin: auto;
 
-    color: teal;
+    color: yellow;
 }
+
 #container
 {
-    background-color: #88b2d2;
-}
-
-section
-{
-    display: block;
+    display: inline-table;
     float: left;
 
-    -webkit-box-sizing: border-box;
-    width: 70%;
+    width: 100%;
+
+    background-color: none;
+
+    text-decoration-color: yellow;
+}
+
+#left
+{
+width: 10%;
+float: left;
 }
 article
 {
-    display: block;
-
-    width: 100%;
-    margin: 10px;
-    padding: 10px;
+    display: inline-block;
+    float: left;
+background-image: url('../images/2.jpg');
+    -webkit-box-sizing: border-box;
+    width: 80%;
+    margin: 0px;
+    padding: 0px;
 
     text-align: left bottom;/*文本对齐方式*/
     text-indent: 2em;/*首行空位*/
@@ -68,80 +87,18 @@ article
     text-transform: uppercase;/*文本大小写*/
 
     -webkit-border-radius: 10px;
-            border-radius: 10px;
+            border-radius: 10px;/*使用圆角边框*/
     background-color: #eee;/*设置背景颜色*/
-    -webkit-box-shadow: 2px 2px 20px #888;
+    -webkit-box-shadow: 2px 2px 20px #888;/*阴影*/
     /*-webkit-transform: rotate(-10deg);*/
 }
-.demo
-{
-    width: 100%;
-    height: 20px;
-    padding: 0;
-
-    border: 1px solid pink;
-}
-
-li
-{
-    line-height: 20px;
-
-    display: inline-block;/*隐藏小圆点*/
-    float: center;
-
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
-
-    text-align: center;
-
-    color: yellow;
-    -webkit-border-radius: 10px;
-            border-radius: 10px;
-    background: pink;
-}
-
-
-nav
-{
-    display: block;
-    float: left;
-
-    width: 15%;
-}
-nav a:link,
-nav a:visited
-{
-    font-weight: bold;
-
-    display: block;
-
-    margin: 5px;
-    padding: 10px;
-
-    text-decoration: none;
-
-    border-bottom: 3px solid teal;
-}
-nav a:hover
-{
-    color: teal;
-    background-color: pink;
-}
-nav h3
-{
-    margin: 15px;
-
-    color: teal;
-}
-
 
 aside
 {
     display: inline-block;
-    float: left;
+    float: right;
 
-    width: 15%;
+    width: 10%;
 }
 aside h3
 {

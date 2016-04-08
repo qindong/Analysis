@@ -1,0 +1,20 @@
+[
+    {
+        "Key":"android.permission.ACCESS_CHECKIN_PROPERTIES",
+        "Title":"访问检入属性",
+        "Memo":"允许对检入服务上传的属性进行读/写访问。普通应用程序不能使用此权限。",
+        "Level":0
+    },
+    {
+        "Key":"android.permission.ACCESS_COARSE_LOCATION",
+        "Title":"大概位置",
+        "Memo":"访问大概的位置源(例如蜂窝网络数据库)以确定手机的大概位置(如果可以)。恶意应用程序可借此确定您所处的大概位置。",
+        "Level":1
+    },
+    {
+        "Key":"android.permission.ACCESS_COARSE_LOCATION",
+        "Title":"大概位置",
+        "Memo":"访问大概的位置源(例如蜂窝网络数据库)以确定手机的大概位置(如果可以)。恶意应用程序可借此确定您所处的大概位置。",
+        "Level":1
+    }
+]
